@@ -1,0 +1,7 @@
+### Test Finding Similar Embeddings
+POST http://localhost:4004/odata/v4/text/FindSimilarEmbeddings
+Content-Type: application/json
+
+{
+  "inputEmbedding": "[0.3, 0.5, 0.6, 0.2]"
+}
